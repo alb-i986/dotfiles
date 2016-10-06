@@ -1,0 +1,9 @@
+[user]
+	name = Alberto Scotto
+	email = scotto.alberto.86@gmail.com
+[core]
+	autocrlf = input # this assumes you are on linux -- set it to 'true' if on windows
+[alias]
+	co = checkout
+	st = status
+	ci = commit
