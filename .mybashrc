@@ -4,7 +4,7 @@
 
 
 # Don't put duplicate lines in the history
-export HISTCONTROL=$HISTCONTROL${HISTCONTROL+,}ignoredups
+export HISTCONTROL=ignoreboth:erasedups
 
 
 # Aliases
