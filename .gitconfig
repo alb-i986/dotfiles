@@ -1,9 +1,17 @@
 [user]
 	name = Alberto Scotto
 	email = scotto.alberto.86@gmail.com
+
 [core]
 	autocrlf = input # this assumes you are on linux -- set it to 'true' if on windows
+	editor = vi
+	excludesfile = ~/.gitignore_global
+
 [alias]
 	co = checkout
 	st = status
 	ci = commit
+
+[push]
+	default = simple
+
