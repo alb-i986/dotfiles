@@ -22,3 +22,8 @@ alias du='du -h'
 alias gs='git status'
 alias gd='git diff'
 alias gl='git log'
+
+
+# utils
+alias psgr='ps -fe | grep'
+
