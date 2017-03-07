@@ -8,6 +8,7 @@
 
 # Basic aliases
 alias ll='ls -l'
+alias l='ls -l'
 alias la='ls -lA'
 alias grep='grep --color'
 alias rgrep='grep -r'
