@@ -7,19 +7,19 @@
 # fi
 
 # Basic aliases
-alias ll='ls -l'
-alias l='ls -l'
-alias la='ls -lA'
-alias grep='grep --color'
-alias rgrep='grep -r'
+alias ll='ls -lh'
+alias la='ls -lah'
+alias grep='grep --color=auto'
+alias rgrep='grep -r --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
-
-# Default to human readable figures
 alias df='df -h'
 alias du='du -h'
 
-# git shortcuts
+# git aliases
+alias gl='git log'
+alias glp='git log --patch'
+alias glo='git log --oneline'
 alias gs='git status'
 alias gd='git diff'
-alias gl='git log'
+alias gds='git diff --staged'
